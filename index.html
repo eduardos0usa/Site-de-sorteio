@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Faça seu sorteio:</h1>
+
+    <p id="txtpala">Nome: 
+        <input type="text" name="Nome" id="txtpa" >
+    </p>
+    <div id="gpalvraa">
+        <input type="button" value="Guardar Palavras" id="gpalvr" onclick="guardarpalavras()">
+    </div>
+    
+
+    <div id="seltab">
+
+    <select name="gpalv" id="gpalv" size="15"><option> Palavras Guardadas:</option>
+    </select>
+
+    
+
+   </div>
+   <p id="sorte">
+        <input type="button" value="Sortear" id="Sortear" onclick="sortear()">
+    </p>
+    
+    <p id="clean">
+        <input type="button" value="Limpar" onclick="limpar()" id="limpar">
+    </p>
+    <h1 id="h1"></h1>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
